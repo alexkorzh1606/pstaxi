@@ -13,9 +13,6 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 import environ
 from pathlib import Path
 
-import django_heroku
-django_heroku.settings(locals())
-
 
 # Environment instance for environ
 env = environ.Env()
@@ -134,4 +131,5 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Heroku
-
+import django_heroku
+django_heroku.settings(locals())

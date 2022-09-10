@@ -1,0 +1,95 @@
+[
+  {
+    "model": "motorpool.brand",
+    "pk": 1,
+    "fields": {
+      "title": "Ауди"
+    }
+  },
+  {
+    "model": "motorpool.brand",
+    "pk": 2,
+    "fields": {
+      "title": "BMW"
+    }
+  },
+  {
+    "model": "motorpool.option",
+    "pk": 1,
+    "fields": {
+      "title": "детское кресло"
+    }
+  },
+  {
+    "model": "motorpool.option",
+    "pk": 2,
+    "fields": {
+      "title": "просторный салон"
+    }
+  },
+  {
+    "model": "motorpool.option",
+    "pk": 3,
+    "fields": {
+      "title": "тихий салон и плавный ход"
+    }
+  },
+  {
+    "model": "motorpool.option",
+    "pk": 4,
+    "fields": {
+      "title": "широкие подлокотники"
+    }
+  },
+  {
+    "model": "motorpool.option",
+    "pk": 5,
+    "fields": {
+      "title": "зарядка для телефона"
+    }
+  },
+  {
+    "model": "motorpool.option",
+    "pk": 6,
+    "fields": {
+      "title": "водитель в деловом костюме"
+    }
+  },
+  {
+    "model": "motorpool.option",
+    "pk": 7,
+    "fields": {
+      "title": "кожаный салон с фоновой подсветкой"
+    }
+  },
+  {
+    "model": "motorpool.auto",
+    "pk": 1,
+    "fields": {
+      "brand": 1,
+      "number": "A758KA177",
+      "description": "",
+      "year": 2021,
+      "auto_class": "b",
+      "options": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "model": "motorpool.vehiclepassport",
+    "pk": 1,
+    "fields": {
+      "auto": 1,
+      "vin": "45145dsfg3456",
+      "engine_volume": 100,
+      "engine_power": 100
+    }
+  }
+]
